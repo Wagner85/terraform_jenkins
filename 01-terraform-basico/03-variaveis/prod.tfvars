@@ -1,7 +1,7 @@
-instance_type = "t3.medium"
+instance_type = "t2.medium"
 environment   = "prod"
 instance_tags = {
   Name    = "Ubuntu"
-  Project = "Curso AWS com Terraform"
+  Project = "AWS com Terraform"
   Env     = "Prod"
 }

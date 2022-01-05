@@ -1,5 +1,5 @@
 terraform {
-  required_version = "0.14.4"
+  #required_version = "0.14.4"
 
   required_providers {
     aws = {
@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = var.aws_region
-  profile = var.aws_profile
+  #profile = var.aws_profile
 }
 
 resource "aws_instance" "web" {
