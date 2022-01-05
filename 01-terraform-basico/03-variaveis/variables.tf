@@ -8,10 +8,10 @@ variable "aws_region" {
   description = ""
 }
 
-#variable "aws_profile" {
- # type        = string
- # description = ""
-#}
+variable "aws_profile" {
+  type        = string
+  description = ""
+}
 
 variable "instance_ami" {
   type        = string
