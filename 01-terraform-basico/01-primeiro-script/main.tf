@@ -16,7 +16,7 @@ provider "aws" {
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket#private-bucket-w-tags
 resource "aws_s3_bucket" "my-test-bucket" {
-  bucket = "my-tf-test-bucket-12312345574564234234274699"
+  bucket = "my-tf-test-bucket-12312345574564234234274699111"
   acl    = "private"
 
   tags = {
